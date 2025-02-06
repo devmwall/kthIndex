@@ -1,7 +1,7 @@
 
 /*
     Objective: We are going to be passing in a node structure.
-    This node structure will be queried against to get kth index.
+    This node structure will be queried against to get kth parent.
     We want to do some heavy lifting initially to create a larger mem index, but will make each query faster.
 
     Different solutions:
