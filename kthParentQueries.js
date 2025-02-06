@@ -114,7 +114,6 @@ let case1Node = {
     id: 1,
     children: []}
 let indexMapCase1 = indexNodeList(case1Node, 10);
-console.log(indexMapCase1);
 let kthParentToReturnCase1 = getKthParent(96, 90, indexMapCase1);
 let kthParentToReturnCase2 = getKthParent(1, 0, indexMapCase1);
 
