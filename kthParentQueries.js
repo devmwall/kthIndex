@@ -60,8 +60,8 @@ var indexNodeList = function(root, skipListIncrement = 10){
 
 /**
 * Get kth index given an index
-* @param {Object} indexList - Index list we want to query
-* @param {Number} kthParentToReturn - the parent number we want to return
+* @param {Number} id - The id we want to start from
+* @param {Number} kthParentToReturn - The parent iteration we want to return
 * @param {Array} indexHashMap - an array of the index object. indexHashMap[0] is the 1-1 map. indexHashMap[1] is the express map with the skipIndex property.
 * @return id of give kth parent. Returns null if that index does not exist.
 */
