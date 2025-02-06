@@ -140,7 +140,7 @@ let kthParentToReturnCase4 = getKthParent(4, 2, indexMapCase3);
 console.log("Case 3. Expected value for kthParent is 2. Actual value: ", kthParentToReturnCase3);
 console.log("Case 4. Expected value for kthParent is 1. Actual value: ", kthParentToReturnCase4);
 
-//Test Case4: Deeply nested node structure with 100 ids. 
+//Test Case5: Deeply nested node structure with 1000 ids. 
 //Testing a "large" skip index like 10. 
 //Returning a "large" kth parseInt();
 let testNode = new Node(1);
