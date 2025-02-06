@@ -142,8 +142,14 @@ console.log("Case 4. Expected value for kthParent is 1. Actual value: ", kthPare
 
 //Test Case4: Deeply nested node structure with 100 ids. 
 //Testing a "large" skip index like 10. 
-//Returning a "large" kth parent
-import {testNode} from './testNode.js'
+//Returning a "large" kth parseInt();
+let testNode = new Node(1);
+let nodeRef = testNode;
+for(let i = 2; i<1000; i++){
+    const newNode = new Node(i);
+    nodeRef.children.push(newNode);
+    nodeRef = newNode;
+}
 let indexMapCase5 = indexNodeList(testNode, 10);
 let kthParentToReturnCase5 = getKthParent(96, 90, indexMapCase5);
 console.log("Case 5 express index: ", indexMapCase5[1]);
